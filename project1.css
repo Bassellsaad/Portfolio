@@ -1,0 +1,56 @@
+.container {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+  }
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid; 
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+}
+
+.image:hover {
+    transform: scale(1.05); 
+}
+.description {
+    text-align: justify;
+    line-height: 1.8; 
+    background-color: #f9f9f9; 
+    padding: 15px; 
+    font-style: italic; 
+    margin-top: 20px; 
+}
+.home-button {
+    background-color: black; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer; 
+    display: block; 
+    margin: 20px auto; 
+    transition: background-color 0.3s; 
+}
+
+.home-button:hover {
+    background-color: blue; 
+}
+
+             
